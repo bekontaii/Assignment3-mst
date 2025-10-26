@@ -1,0 +1,3 @@
+graph,algorithm,totalCost,timeMs,operationCount,success
+demo_graph,prim,10,0.8387,12,true
+demo_graph,kruskal,10,0.6706,24,true
