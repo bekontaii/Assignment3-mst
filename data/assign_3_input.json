@@ -1,0 +1,190 @@
+{
+  "graphs": [
+    {
+      "name": "S1(4)",
+      "vertices": ["A", "B", "C", "D"],
+      "edges": [
+        { "u": "A", "v": "B", "weight": 3 },
+        { "u": "A", "v": "C", "weight": 5 },
+        { "u": "B", "v": "C", "weight": 1 },
+        { "u": "B", "v": "D", "weight": 4 },
+        { "u": "C", "v": "D", "weight": 2 }
+      ]
+    },
+    {
+      "name": "S2(5)",
+      "vertices": ["A", "B", "C", "D", "E"],
+      "edges": [
+        { "u": "A", "v": "B", "weight": 2 },
+        { "u": "A", "v": "C", "weight": 6 },
+        { "u": "B", "v": "C", "weight": 1 },
+        { "u": "B", "v": "D", "weight": 4 },
+        { "u": "C", "v": "E", "weight": 5 },
+        { "u": "D", "v": "E", "weight": 3 }
+      ]
+    },
+    {
+      "name": "S3(6)",
+      "vertices": ["A", "B", "C", "D", "E", "F"],
+      "edges": [
+        { "u": "A", "v": "B", "weight": 3 },
+        { "u": "A", "v": "C", "weight": 2 },
+        { "u": "B", "v": "C", "weight": 5 },
+        { "u": "B", "v": "D", "weight": 6 },
+        { "u": "C", "v": "E", "weight": 4 },
+        { "u": "D", "v": "E", "weight": 2 },
+        { "u": "E", "v": "F", "weight": 3 }
+      ]
+    },
+
+    {
+      "name": "M1(10)",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J"],
+      "edges": [
+        { "u": "A","v": "B","weight": 3 },
+        { "u": "A","v": "C","weight": 4 },
+        { "u": "B","v": "D","weight": 2 },
+        { "u": "C","v": "D","weight": 5 },
+        { "u": "C","v": "E","weight": 7 },
+        { "u": "E","v": "F","weight": 3 },
+        { "u": "F","v": "G","weight": 2 },
+        { "u": "G","v": "H","weight": 4 },
+        { "u": "H","v": "I","weight": 6 },
+        { "u": "I","v": "J","weight": 5 }
+      ]
+    },
+    {
+      "name": "M2(12)",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L"],
+      "edges": [
+        { "u": "A","v": "B","weight": 2 },
+        { "u": "B","v": "C","weight": 1 },
+        { "u": "C","v": "D","weight": 4 },
+        { "u": "D","v": "E","weight": 2 },
+        { "u": "E","v": "F","weight": 5 },
+        { "u": "F","v": "G","weight": 3 },
+        { "u": "G","v": "H","weight": 4 },
+        { "u": "H","v": "I","weight": 6 },
+        { "u": "I","v": "J","weight": 3 },
+        { "u": "J","v": "K","weight": 5 },
+        { "u": "K","v": "L","weight": 4 },
+        { "u": "A","v": "L","weight": 7 }
+      ]
+    },
+    {
+      "name": "M3(15)",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"],
+      "edges": [
+        { "u": "A","v": "B","weight": 3 },
+        { "u": "B","v": "C","weight": 4 },
+        { "u": "C","v": "D","weight": 5 },
+        { "u": "D","v": "E","weight": 6 },
+        { "u": "E","v": "F","weight": 3 },
+        { "u": "F","v": "G","weight": 2 },
+        { "u": "G","v": "H","weight": 4 },
+        { "u": "H","v": "I","weight": 5 },
+        { "u": "I","v": "J","weight": 2 },
+        { "u": "J","v": "K","weight": 3 },
+        { "u": "K","v": "L","weight": 5 },
+        { "u": "L","v": "M","weight": 4 },
+        { "u": "M","v": "N","weight": 6 },
+        { "u": "N","v": "O","weight": 5 },
+        { "u": "A","v": "O","weight": 7 }
+      ]
+    },
+
+    {
+      "name": "L1(20)",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T"],
+      "edges": [
+        { "u": "A","v": "B","weight": 2 },
+        { "u": "B","v": "C","weight": 3 },
+        { "u": "C","v": "D","weight": 4 },
+        { "u": "D","v": "E","weight": 5 },
+        { "u": "E","v": "F","weight": 6 },
+        { "u": "F","v": "G","weight": 3 },
+        { "u": "G","v": "H","weight": 4 },
+        { "u": "H","v": "I","weight": 5 },
+        { "u": "I","v": "J","weight": 6 },
+        { "u": "J","v": "K","weight": 3 },
+        { "u": "K","v": "L","weight": 4 },
+        { "u": "L","v": "M","weight": 2 },
+        { "u": "M","v": "N","weight": 5 },
+        { "u": "N","v": "O","weight": 3 },
+        { "u": "O","v": "P","weight": 4 },
+        { "u": "P","v": "Q","weight": 6 },
+        { "u": "Q","v": "R","weight": 5 },
+        { "u": "R","v": "S","weight": 4 },
+        { "u": "S","v": "T","weight": 2 },
+        { "u": "A","v": "T","weight": 7 }
+      ]
+    },
+    {
+      "name": "L2(25)",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y"],
+      "edges": [
+        { "u": "A","v": "B","weight": 2 },
+        { "u": "B","v": "C","weight": 3 },
+        { "u": "C","v": "D","weight": 4 },
+        { "u": "D","v": "E","weight": 5 },
+        { "u": "E","v": "F","weight": 6 },
+        { "u": "F","v": "G","weight": 3 },
+        { "u": "G","v": "H","weight": 2 },
+        { "u": "H","v": "I","weight": 5 },
+        { "u": "I","v": "J","weight": 4 },
+        { "u": "J","v": "K","weight": 3 },
+        { "u": "K","v": "L","weight": 6 },
+        { "u": "L","v": "M","weight": 5 },
+        { "u": "M","v": "N","weight": 2 },
+        { "u": "N","v": "O","weight": 4 },
+        { "u": "O","v": "P","weight": 5 },
+        { "u": "P","v": "Q","weight": 6 },
+        { "u": "Q","v": "R","weight": 3 },
+        { "u": "R","v": "S","weight": 2 },
+        { "u": "S","v": "T","weight": 4 },
+        { "u": "T","v": "U","weight": 3 },
+        { "u": "U","v": "V","weight": 5 },
+        { "u": "V","v": "W","weight": 4 },
+        { "u": "W","v": "X","weight": 6 },
+        { "u": "X","v": "Y","weight": 3 },
+        { "u": "A","v": "Y","weight": 7 }
+      ]
+    },
+    {
+      "name": "L3(30)",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","AA","AB","AC","AD"],
+      "edges": [
+        { "u": "A","v": "B","weight": 2 },
+        { "u": "B","v": "C","weight": 3 },
+        { "u": "C","v": "D","weight": 4 },
+        { "u": "D","v": "E","weight": 5 },
+        { "u": "E","v": "F","weight": 6 },
+        { "u": "F","v": "G","weight": 3 },
+        { "u": "G","v": "H","weight": 2 },
+        { "u": "H","v": "I","weight": 5 },
+        { "u": "I","v": "J","weight": 4 },
+        { "u": "J","v": "K","weight": 3 },
+        { "u": "K","v": "L","weight": 6 },
+        { "u": "L","v": "M","weight": 5 },
+        { "u": "M","v": "N","weight": 2 },
+        { "u": "N","v": "O","weight": 4 },
+        { "u": "O","v": "P","weight": 5 },
+        { "u": "P","v": "Q","weight": 6 },
+        { "u": "Q","v": "R","weight": 3 },
+        { "u": "R","v": "S","weight": 2 },
+        { "u": "S","v": "T","weight": 4 },
+        { "u": "T","v": "U","weight": 3 },
+        { "u": "U","v": "V","weight": 5 },
+        { "u": "V","v": "W","weight": 4 },
+        { "u": "W","v": "X","weight": 6 },
+        { "u": "X","v": "Y","weight": 3 },
+        { "u": "Y","v": "Z","weight": 2 },
+        { "u": "Z","v": "AA","weight": 4 },
+        { "u": "AA","v": "AB","weight": 5 },
+        { "u": "AB","v": "AC","weight": 3 },
+        { "u": "AC","v": "AD","weight": 2 },
+        { "u": "A","v": "AD","weight": 7 }
+      ]
+    }
+  ]
+}

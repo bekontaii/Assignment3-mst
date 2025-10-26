@@ -1,0 +1,447 @@
+{
+  "results": [
+    {
+      "graph": "S1(4)",
+      "numVertices": 4,
+      "numEdges": 5,
+      "algorithms": {
+        "prim": {
+          "totalCost": 6,
+          "timeMs": 0.8069,
+          "operationCount": 8,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "B", "v": "C", "weight": 1 },
+            { "u": "C", "v": "D", "weight": 2 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 6,
+          "timeMs": 0.8623,
+          "operationCount": 15,
+          "success": true,
+          "mstEdges": [
+            { "u": "B", "v": "C", "weight": 1 },
+            { "u": "C", "v": "D", "weight": 2 },
+            { "u": "A", "v": "B", "weight": 3 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "S2(5)",
+      "numVertices": 5,
+      "numEdges": 6,
+      "algorithms": {
+        "prim": {
+          "totalCost": 10,
+          "timeMs": 0.0547,
+          "operationCount": 10,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 1 },
+            { "u": "B", "v": "D", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 3 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 10,
+          "timeMs": 0.0312,
+          "operationCount": 18,
+          "success": true,
+          "mstEdges": [
+            { "u": "B", "v": "C", "weight": 1 },
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "D", "v": "E", "weight": 3 },
+            { "u": "B", "v": "D", "weight": 4 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "S3(6)",
+      "numVertices": 6,
+      "numEdges": 7,
+      "algorithms": {
+        "prim": {
+          "totalCost": 14,
+          "timeMs": 0.0314,
+          "operationCount": 12,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "C", "weight": 2 },
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "C", "v": "E", "weight": 4 },
+            { "u": "E", "v": "D", "weight": 2 },
+            { "u": "E", "v": "F", "weight": 3 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 14,
+          "timeMs": 0.0351,
+          "operationCount": 25,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "C", "weight": 2 },
+            { "u": "D", "v": "E", "weight": 2 },
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "E", "v": "F", "weight": 3 },
+            { "u": "C", "v": "E", "weight": 4 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "M1(10)",
+      "numVertices": 10,
+      "numEdges": 10,
+      "algorithms": {
+        "prim": {
+          "totalCost": 36,
+          "timeMs": 0.0452,
+          "operationCount": 20,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "B", "v": "D", "weight": 2 },
+            { "u": "A", "v": "C", "weight": 4 },
+            { "u": "C", "v": "E", "weight": 7 },
+            { "u": "E", "v": "F", "weight": 3 },
+            { "u": "F", "v": "G", "weight": 2 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "H", "v": "I", "weight": 6 },
+            { "u": "I", "v": "J", "weight": 5 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 36,
+          "timeMs": 0.0391,
+          "operationCount": 47,
+          "success": true,
+          "mstEdges": [
+            { "u": "B", "v": "D", "weight": 2 },
+            { "u": "F", "v": "G", "weight": 2 },
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "E", "v": "F", "weight": 3 },
+            { "u": "A", "v": "C", "weight": 4 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "I", "v": "J", "weight": 5 },
+            { "u": "H", "v": "I", "weight": 6 },
+            { "u": "C", "v": "E", "weight": 7 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "M2(12)",
+      "numVertices": 12,
+      "numEdges": 12,
+      "algorithms": {
+        "prim": {
+          "totalCost": 39,
+          "timeMs": 0.034,
+          "operationCount": 23,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 1 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 2 },
+            { "u": "E", "v": "F", "weight": 5 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "H", "v": "I", "weight": 6 },
+            { "u": "I", "v": "J", "weight": 3 },
+            { "u": "J", "v": "K", "weight": 5 },
+            { "u": "K", "v": "L", "weight": 4 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 39,
+          "timeMs": 0.035,
+          "operationCount": 52,
+          "success": true,
+          "mstEdges": [
+            { "u": "B", "v": "C", "weight": 1 },
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "D", "v": "E", "weight": 2 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "I", "v": "J", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "K", "v": "L", "weight": 4 },
+            { "u": "E", "v": "F", "weight": 5 },
+            { "u": "J", "v": "K", "weight": 5 },
+            { "u": "H", "v": "I", "weight": 6 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "M3(15)",
+      "numVertices": 15,
+      "numEdges": 15,
+      "algorithms": {
+        "prim": {
+          "totalCost": 57,
+          "timeMs": 0.0517,
+          "operationCount": 29,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "B", "v": "C", "weight": 4 },
+            { "u": "C", "v": "D", "weight": 5 },
+            { "u": "D", "v": "E", "weight": 6 },
+            { "u": "E", "v": "F", "weight": 3 },
+            { "u": "F", "v": "G", "weight": 2 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "I", "v": "J", "weight": 2 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "K", "v": "L", "weight": 5 },
+            { "u": "L", "v": "M", "weight": 4 },
+            { "u": "M", "v": "N", "weight": 6 },
+            { "u": "N", "v": "O", "weight": 5 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 57,
+          "timeMs": 0.05,
+          "operationCount": 68,
+          "success": true,
+          "mstEdges": [
+            { "u": "F", "v": "G", "weight": 2 },
+            { "u": "I", "v": "J", "weight": 2 },
+            { "u": "A", "v": "B", "weight": 3 },
+            { "u": "E", "v": "F", "weight": 3 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "B", "v": "C", "weight": 4 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "L", "v": "M", "weight": 4 },
+            { "u": "C", "v": "D", "weight": 5 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "K", "v": "L", "weight": 5 },
+            { "u": "N", "v": "O", "weight": 5 },
+            { "u": "D", "v": "E", "weight": 6 },
+            { "u": "M", "v": "N", "weight": 6 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "L1(20)",
+      "numVertices": 20,
+      "numEdges": 20,
+      "algorithms": {
+        "prim": {
+          "totalCost": 76,
+          "timeMs": 0.0559,
+          "operationCount": 39,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 5 },
+            { "u": "E", "v": "F", "weight": 6 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "I", "v": "J", "weight": 6 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "K", "v": "L", "weight": 4 },
+            { "u": "L", "v": "M", "weight": 2 },
+            { "u": "M", "v": "N", "weight": 5 },
+            { "u": "N", "v": "O", "weight": 3 },
+            { "u": "O", "v": "P", "weight": 4 },
+            { "u": "P", "v": "Q", "weight": 6 },
+            { "u": "Q", "v": "R", "weight": 5 },
+            { "u": "R", "v": "S", "weight": 4 },
+            { "u": "S", "v": "T", "weight": 2 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 76,
+          "timeMs": 0.0597,
+          "operationCount": 94,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "L", "v": "M", "weight": 2 },
+            { "u": "S", "v": "T", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 3 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "N", "v": "O", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "G", "v": "H", "weight": 4 },
+            { "u": "K", "v": "L", "weight": 4 },
+            { "u": "O", "v": "P", "weight": 4 },
+            { "u": "R", "v": "S", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 5 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "M", "v": "N", "weight": 5 },
+            { "u": "Q", "v": "R", "weight": 5 },
+            { "u": "E", "v": "F", "weight": 6 },
+            { "u": "I", "v": "J", "weight": 6 },
+            { "u": "P", "v": "Q", "weight": 6 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "L2(25)",
+      "numVertices": 25,
+      "numEdges": 25,
+      "algorithms": {
+        "prim": {
+          "totalCost": 95,
+          "timeMs": 0.0801,
+          "operationCount": 49,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 5 },
+            { "u": "E", "v": "F", "weight": 6 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "G", "v": "H", "weight": 2 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "I", "v": "J", "weight": 4 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "K", "v": "L", "weight": 6 },
+            { "u": "L", "v": "M", "weight": 5 },
+            { "u": "M", "v": "N", "weight": 2 },
+            { "u": "N", "v": "O", "weight": 4 },
+            { "u": "O", "v": "P", "weight": 5 },
+            { "u": "P", "v": "Q", "weight": 6 },
+            { "u": "Q", "v": "R", "weight": 3 },
+            { "u": "R", "v": "S", "weight": 2 },
+            { "u": "S", "v": "T", "weight": 4 },
+            { "u": "T", "v": "U", "weight": 3 },
+            { "u": "U", "v": "V", "weight": 5 },
+            { "u": "V", "v": "W", "weight": 4 },
+            { "u": "W", "v": "X", "weight": 6 },
+            { "u": "X", "v": "Y", "weight": 3 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 95,
+          "timeMs": 0.0801,
+          "operationCount": 118,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "G", "v": "H", "weight": 2 },
+            { "u": "M", "v": "N", "weight": 2 },
+            { "u": "R", "v": "S", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 3 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "Q", "v": "R", "weight": 3 },
+            { "u": "T", "v": "U", "weight": 3 },
+            { "u": "X", "v": "Y", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "I", "v": "J", "weight": 4 },
+            { "u": "N", "v": "O", "weight": 4 },
+            { "u": "S", "v": "T", "weight": 4 },
+            { "u": "V", "v": "W", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 5 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "L", "v": "M", "weight": 5 },
+            { "u": "O", "v": "P", "weight": 5 },
+            { "u": "U", "v": "V", "weight": 5 },
+            { "u": "E", "v": "F", "weight": 6 },
+            { "u": "K", "v": "L", "weight": 6 },
+            { "u": "P", "v": "Q", "weight": 6 },
+            { "u": "W", "v": "X", "weight": 6 }
+          ]
+        }
+      }
+    },
+    {
+      "graph": "L3(30)",
+      "numVertices": 30,
+      "numEdges": 30,
+      "algorithms": {
+        "prim": {
+          "totalCost": 111,
+          "timeMs": 0.1016,
+          "operationCount": 59,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 5 },
+            { "u": "E", "v": "F", "weight": 6 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "G", "v": "H", "weight": 2 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "I", "v": "J", "weight": 4 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "K", "v": "L", "weight": 6 },
+            { "u": "L", "v": "M", "weight": 5 },
+            { "u": "M", "v": "N", "weight": 2 },
+            { "u": "N", "v": "O", "weight": 4 },
+            { "u": "O", "v": "P", "weight": 5 },
+            { "u": "P", "v": "Q", "weight": 6 },
+            { "u": "Q", "v": "R", "weight": 3 },
+            { "u": "R", "v": "S", "weight": 2 },
+            { "u": "S", "v": "T", "weight": 4 },
+            { "u": "T", "v": "U", "weight": 3 },
+            { "u": "U", "v": "V", "weight": 5 },
+            { "u": "V", "v": "W", "weight": 4 },
+            { "u": "W", "v": "X", "weight": 6 },
+            { "u": "X", "v": "Y", "weight": 3 },
+            { "u": "Y", "v": "Z", "weight": 2 },
+            { "u": "Z", "v": "AA", "weight": 4 },
+            { "u": "AA", "v": "AB", "weight": 5 },
+            { "u": "AB", "v": "AC", "weight": 3 },
+            { "u": "AC", "v": "AD", "weight": 2 }
+          ]
+        },
+        "kruskal": {
+          "totalCost": 111,
+          "timeMs": 0.0976,
+          "operationCount": 142,
+          "success": true,
+          "mstEdges": [
+            { "u": "A", "v": "B", "weight": 2 },
+            { "u": "G", "v": "H", "weight": 2 },
+            { "u": "M", "v": "N", "weight": 2 },
+            { "u": "R", "v": "S", "weight": 2 },
+            { "u": "Y", "v": "Z", "weight": 2 },
+            { "u": "AC", "v": "AD", "weight": 2 },
+            { "u": "B", "v": "C", "weight": 3 },
+            { "u": "F", "v": "G", "weight": 3 },
+            { "u": "J", "v": "K", "weight": 3 },
+            { "u": "Q", "v": "R", "weight": 3 },
+            { "u": "T", "v": "U", "weight": 3 },
+            { "u": "X", "v": "Y", "weight": 3 },
+            { "u": "AB", "v": "AC", "weight": 3 },
+            { "u": "C", "v": "D", "weight": 4 },
+            { "u": "I", "v": "J", "weight": 4 },
+            { "u": "N", "v": "O", "weight": 4 },
+            { "u": "S", "v": "T", "weight": 4 },
+            { "u": "V", "v": "W", "weight": 4 },
+            { "u": "Z", "v": "AA", "weight": 4 },
+            { "u": "D", "v": "E", "weight": 5 },
+            { "u": "H", "v": "I", "weight": 5 },
+            { "u": "L", "v": "M", "weight": 5 },
+            { "u": "O", "v": "P", "weight": 5 },
+            { "u": "U", "v": "V", "weight": 5 },
+            { "u": "AA", "v": "AB", "weight": 5 },
+            { "u": "E", "v": "F", "weight": 6 },
+            { "u": "K", "v": "L", "weight": 6 },
+            { "u": "P", "v": "Q", "weight": 6 },
+            { "u": "W", "v": "X", "weight": 6 }
+          ]
+        }
+      }
+    }
+  ]
+}
